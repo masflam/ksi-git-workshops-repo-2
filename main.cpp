@@ -13,7 +13,7 @@ std::vector<std::string> fizz_buzz(int n) {
     } else if (i % 5 == 0) {
       output.push_back("Buzz");
     } else {
-      output.push_back(i);
+      output.push_back(std::to_string(i));
     }
   }
 
